@@ -1,0 +1,66 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: cursive;
+}
+
+.menubar{
+    /* background-image: linear-gradient(to right,#6db9ef,#7ce08a); */
+    background-image: linear-gradient(to right,#FFF,#585537);
+    
+}
+/* links white color */
+.nav-link{
+    font-size: 16px;
+    color:#FFF !important;
+    margin:2px;
+}
+/* when responsive the links should be in the right side */
+.navbar-nav{
+    text-align: right;   
+
+}
+.menubar .navbar-toggler{
+
+    padding-right:0;
+    outline:none;
+    border:none;
+}
+.menubar img{
+    width:80px;
+    height:80px;
+
+}
+
+.Myform1{
+   margin-top:120px;
+}
+label{
+    font-size: 15px;
+    color: rgb(116, 169, 238);
+}
+.ml9 {
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    margin-top: 20%;
+    color: lightcoral;
+}
+#tbl {
+    border: 1px solid black;
+  border-collapse: collapse;
+}
+#tbl th,td{
+    border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    background-color: lightcoral;
+  }
